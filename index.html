@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel ="icon" href="imagens/lupa.png">
+<title>Decodificador de texto</title>
+</head>
+    
+    <body>
+        
+        <header>
+            
+            <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer"><img src="imagens/logoalura.png" alt="Logo da alura com inicial da letra a"></a>
+
+        </header>
+        
+        <main class="main">
+            
+            <section>
+                
+                <textarea class="input-texto" cols="53" rows="10" placeholder="Digite seu texto:"></textarea>
+                
+                <div>
+                    
+                    <img class="imagem-exclamacao" src="imagens/exclamacao.png" alt="Símbolo de exclamação">
+                    
+                    <h6 class="informacao">Apenas letras minúsculas e sem caracteres especiais</h6>
+                    
+                </div>
+    
+                <div class="botoes">
+                    
+                    <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    
+                    <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                
+                </div>
+            
+            </section>
+           
+            <section class="area-resultado">
+                
+                <textarea class="mensagem" cols="25" rows="10"></textarea>
+
+                <div class="msg-abaixo-boneco">
+
+                    <h3>Nenhuma mensagem encontrada</h3>
+                    
+                    <p>Digite um texto que você deseja Criptografar ou Descriptografar</p>
+
+                </div>
+
+
+                <button class="botao-copiar" onclick="btnCopiar()">Copiar</button>
+            
+            </section>
+
+        </main>
+
+        <footer>
+
+            <p class="msg-rodape">&copy; 2022 - Desenvolvido por:<br>Daniel Monteiro</p>
+            
+            <a href="https://www.linkedin.com/in/daniel-monteiro-8386b0210" target="_blank" rel="noopener noreferrer"><img class="perfil-linkedin" src="imagens/linkedin-logo.png" alt="Logo do Linkedin com apenas as letras finais in"></a>
+
+            <a href="https://github.com/DMonteiro99" target="_blank" rel="noopener noreferrer"><img class="perfil-github" src="imagens/logo-github.png" alt="Logo GitHub"></a>
+
+            <a href="https://cursos.alura.com.br/user/monteirodaniel071" target="_blank" rel="noopener noreferrer"><img class="perfil-alura" src="imagens/logoalura2.png" alt="Logo da alura com a inicial letra a"></a>
+            
+            <div class="linha-divisoria"></div>
+            
+            <div id="logos-aluraone">            
+                           
+                <img class="logo-one" src="imagens/logoone.png" alt="Logo do programa da Oracle ONE Oracle Next Education">
+                
+                <img class="logo-alura" src="imagens/logoalura3.png" alt="Logo alura">
+
+            </div>
+
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
